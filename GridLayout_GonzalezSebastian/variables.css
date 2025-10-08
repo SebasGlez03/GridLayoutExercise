@@ -1,0 +1,14 @@
+:root{
+    /* Colores */
+    --main--bg-color: #a3e7f3;
+    --item--header-bg-color: #53ceb3;
+    --item--nav-bg-color: #61be44;
+    --item--aside-bg-color: #a4eb88;
+    --item--content-bg-color: #47b7d3;
+    --item--section-bg-color: #3a6ac4;
+    --item--footer-bg-color: #53d6af;
+    --font-color: #ffffff;
+    
+    /* Fuentes */
+    --main-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,52 @@
+@import url(variables.css);
+
+.container{
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    grid-template-columns: auto auto auto auto;
+    background-color: var(--main--bg-color);
+    
+}
+
+.container div{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: var(--main-font);
+    color: var(--font-color);
+    row-gap: 10px;
+}
+
+.container .header{
+    background-color: var(--item--header-bg-color);
+    grid-column: span 4;
+}
+
+.container .navigation{
+    background-color: var(--item--nav-bg-color);
+    grid-column: span 4;
+}
+
+.container .aside{
+    background-color: var(--item--aside-bg-color);
+    grid-row: 3 / span 2;
+}
+
+.container .content{
+    background-color: var(--item--content-bg-color);
+    grid-column: 2 / span 3;
+}
+
+
+.container .section{
+    background-color: var(--item--section-bg-color);
+    grid-column: 2 / span 3;
+}
+
+.container .footer{
+    background-color: var(--item--footer-bg-color);
+    grid-column: span 4;
+}
